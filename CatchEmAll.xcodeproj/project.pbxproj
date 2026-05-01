@@ -12,6 +12,9 @@
 		A7652D972FA063DB005FB7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7652D962FA063DB005FB7DA /* Assets.xcassets */; };
 		A7652D9A2FA063DB005FB7DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7652D992FA063DB005FB7DA /* Preview Assets.xcassets */; };
 		A7652DA22FA1B255005FB7DA /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7652DA12FA1B254005FB7DA /* Creatures.swift */; };
+		A7652DA42FA3011C005FB7DA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7652DA32FA3011C005FB7DA /* DetailView.swift */; };
+		A7652DA62FA30708005FB7DA /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7652DA52FA30708005FB7DA /* Creature.swift */; };
+		A7652DA82FA453B1005FB7DA /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7652DA72FA453B1005FB7DA /* CreatureDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A7652D992FA063DB005FB7DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7652DA02FA06484005FB7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A7652DA12FA1B254005FB7DA /* Creatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
+		A7652DA32FA3011C005FB7DA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A7652DA52FA30708005FB7DA /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		A7652DA72FA453B1005FB7DA /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				A7652DA02FA06484005FB7DA /* Info.plist */,
+				A7652DA32FA3011C005FB7DA /* DetailView.swift */,
 				A7652D922FA063D9005FB7DA /* CatchEmAllApp.swift */,
 				A7652D942FA063D9005FB7DA /* CreaturesListView.swift */,
 				A7652DA12FA1B254005FB7DA /* Creatures.swift */,
+				A7652DA72FA453B1005FB7DA /* CreatureDetail.swift */,
+				A7652DA52FA30708005FB7DA /* Creature.swift */,
 				A7652D962FA063DB005FB7DA /* Assets.xcassets */,
 				A7652D982FA063DB005FB7DA /* Preview Content */,
 			);
@@ -143,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7652DA22FA1B255005FB7DA /* Creatures.swift in Sources */,
+				A7652DA82FA453B1005FB7DA /* CreatureDetail.swift in Sources */,
+				A7652DA42FA3011C005FB7DA /* DetailView.swift in Sources */,
 				A7652D952FA063D9005FB7DA /* CreaturesListView.swift in Sources */,
+				A7652DA62FA30708005FB7DA /* Creature.swift in Sources */,
 				A7652D932FA063D9005FB7DA /* CatchEmAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
