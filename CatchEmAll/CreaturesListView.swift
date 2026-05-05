@@ -32,10 +32,17 @@ struct CreaturesListView: View {
                 .listStyle(.plain)
                 .navigationTitle("Pokemon")
                 .toolbar{
+                    ToolbarItem(placement: .bottomBar) {
+                        Button("Load All"){
+                            Task{
+                                await creatures.loadAll()
+                            }
+                        }
+                    }
                     ToolbarItem(placement: .status) {
                         Text("\(creatures.creaturesArray.count) of \(creatures.count) creatures")
                     }
-                }
+                } //.toolbar
                 
                 if creatures.isLoading {
                     ProgressView()
